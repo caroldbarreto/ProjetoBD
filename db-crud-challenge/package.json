@@ -1,0 +1,19 @@
+{
+  "name": "db-crud-challenge",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.tsx"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^1.0.2",
+    "@types/pg": "^8.11.5",
+    "dotenv": "^16.4.5",
+    "elysia": "latest",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
